@@ -21,6 +21,7 @@ function App() {
     <Testimonial/>
     <Contact/>
     <Footer/>
+    <Toaster/>
     </>
   );
 }
