@@ -3,7 +3,7 @@ import vg from "../assests/vg.png";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 import { addDoc, collection } from "firebase/firestore";
-
+import { db } from "../firebase";
 
 const Contact = () => {
   const [name, setName] = useState("");
